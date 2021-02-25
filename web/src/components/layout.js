@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./header";
-import Footer from "./footer";
 import "../styles/layout.css";
 
 class Layout extends React.Component {
@@ -51,7 +50,7 @@ class Layout extends React.Component {
           textWhite={textWhite}
         />
         <>{children}</>
-        <Footer siteTitle={siteTitle} />
+  
       </>
     );
   }
